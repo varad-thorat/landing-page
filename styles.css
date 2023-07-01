@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+  }
+  
+  /* Header */
+  header {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  header{
+    background-color: #ff6b6b;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  /* Hero section */
+  #hero {
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+  
+  /* About section */
+  #about {
+    padding: 100px;
+    background-color: white;
+  }
+  
+  /* Destinations section */
+  #destinations {
+    padding: 100px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .destination-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .destination {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .destination img {
+    width: 564px;
+    height: 402px;
+    border-radius: 5px;
+  }
+  
+  /* Contact section */
+  #contact {
+    padding: 100px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .contact-content form input,
+  .contact-content form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-content form textarea {
+    height: 150px;
+  }
+  
+  .contact-content form button {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
